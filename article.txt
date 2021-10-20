@@ -1,0 +1,45 @@
+Projet : Système de billetterie du parc thématique utilisant PHP/MySQLi
+
+Sur
+Le système de billetterie du parc thématique est un simple projet PHP/MySQLi qui aide à gérer et à générer les billets des visiteurs dans un thème ou un parc d’attractions. Le système peut générer un billet différent à la fois dans différents types et tous les billets ont un numéro de billet unique. La direction ou l’administrateur du parc thématique peut mettre en place des prix différents pour les manèges, l’entrée ou les promos que le parc offre aux visiteurs. Le système sépare les frais pour adultes et enfants pour chaque configuration de prix. L’utilisateur administrateur a la permission de gérer toutes les données dans le système en particulier la liste des manèges et la liste des prix du thème ou du parc d’attractions. Le système génère également un rapport de vente pour le nombre de billets vendus dans le choix de la direction de la plage de date. Ce système de billetterie également une calculatrice simple qui aide le personnel ou l’administrateur à calculer le montant total à payer et le changement du client ou du visiteur. Le format du billet est tout simplement simple, il affiche uniquement le numéro de billet, le type pax (adulte/enfant), le type de billet (p. ex. « Entrée ») et la date vendue.
+
+fonctionnalités
+Page de connexion
+La page où les utilisateurs du système soumettront leurs informations d’identification système pour accéder aux données et fonctionnalités du système en fonction de leurs rôles ou autorisations.
+Page tableau de bord
+La page par défaut où les utilisateurs du système seront redirigés après s’être connectés au système. L’administrateur et les utilisateurs du personnel ont une vue différente sur cette page qui est le côté admin affiche un résumé simple tandis que le côté utilisateur du personnel affiche seulement accueil de bienvenue.
+Nouvelle page Rides
+La page où l’utilisateur administrateur soumet les informations sur les nouveaux manèges du parc à thème.
+Page de la liste des manèges
+La page où tous les manèges dans le thème ou le parc d’attractions sont répertoriés et gérés. Cette page n’est visible que par les utilisateurs admin.
+Nouvelle page de tarification
+La page où l’administrateur peut mettre en place de nouveaux prix pour les nouveaux manèges ou billets promo.
+Page de liste de prix
+La page où tous les prix des billets sont répertoriés et gérés par l’administrateur. Cette page n’est visible que par les utilisateurs admin.
+Nouvelle page de billets
+La page où les utilisateurs du système génèrent un billet/billets pour le client/visiteur.
+Page de liste des billets
+La page où la liste des billets vendus est répertoriée et gérée.
+Page du rapport de vente
+La page où la liste imprimable des billets vendus sur une plage de date sélectionnée est affichée avec le montant total de la vente du thème ou du parc d’attractions.
+Le système de billetterie du parc thématique a été développé en utilisant HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax) et Bootstrap pour la conception. Le code source est entièrement fonctionnel et facile à modifier ou à améliorer. Suivez les instructions ci-dessous pour avoir une expérience réelle en utilisant ce projet simple.
+
+
+
+Comment courir
+Téléchargez le code source et extrayz le fichier zip.
+Téléchargez ou configurez n’importe quel serveur Web local qui exécute le script PHP.
+Ouvrez la base de données du serveur Web et créez un nouveau nom de base de données qu’elle tpts_db ».
+Importez le fichier SQL situé dans le dossier de base de données du code source.
+Copiez et coller le code source à l’endroit où votre serveur Web local accède à vos projets locaux. Exemple pour XAMPP ('C:xampphtdocs')
+Ouvrez un navigateur Web et parcourez le projet. P. ex. [http://localhost/theme-park-ticketing-system]
+Accès admin par défaut
+Nom d’utilisateur: admin@admin.com
+Mot de passe: admin123
+
+J’espère que ce système simple de billetterie parc à thème vous aidera avec ce que vous cherchez, n’hésitez pas à télécharger et modifier le code source.
+
+Explorez plus sur ce site web pour plus de codes sources et tutoriels.
+
+Profiter!
+by startedproject
